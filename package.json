@@ -1,0 +1,32 @@
+{
+  "name": "fetch-pnld",
+  "version": "1.0.0",
+  "description": "Script que compila os dados da base de dados do PNLD do site do FNDE",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosroriz/fetch-pnld.git"
+  },
+  "keywords": [
+    "pnld",
+    "base",
+    "de",
+    "dados",
+    "fnde"
+  ],
+  "author": "Marcos Roriz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcosroriz/fetch-pnld/issues"
+  },
+  "homepage": "https://github.com/marcosroriz/fetch-pnld#readme",
+  "dependencies": {
+    "download": "^8.0.0",
+    "minimist": "^1.2.5",
+    "puppeteer": "^9.1.1"
+  }
+}
